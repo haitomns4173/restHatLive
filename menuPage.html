@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestHat Menu Page</title>
+    <link rel="stylesheet" href="assets/css/main/app.css" />
+    <link rel="stylesheet" href="assets/css/main/app-dark.css" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png" />
+
+    <style>
+        .restroName {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 0px;
+        }
+
+        .restroAddress {
+            text-align: center;
+            font-size: 10px;
+            font-weight: 200;
+            margin-top: 0px;
+        }
+
+        .tableShow {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 0px;
+        }
+
+        .centerFooter {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <a href="index.html"><button class="btn btn-success"><i class="bi-house-door"></i> Home</button></a>
+        <div class="mx-auto d-block">
+            <a class="navbar-brand ms-4" href="menuPage.html">
+                <img src="assets/images/logo/logo.svg" />
+            </a>
+        </div>
+        <a href='cart.html'><button class='btn btn-success'><i class='bi bi-basket'></i> Cart</button></a>
+    </nav>
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <h4 class='restroName'>Haitomns Restaurant</h4>
+                    <h6 class='restroAddress'>Knowhere</h6>
+                    <h6 class="tableShow"> Table Number: 1 </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td class="col-auto" colspan="2">
+                                <h4 class="restroName">Menu</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='col-auto'>
+                                <div class='d-flex align-items-center'>
+                                    <img src='assets/images/menu/momoveg.jpg' height='50' width='50' />
+                                    <p class='font-bold ms-3 mb-0'>
+                                        Veg Mo:Mo<br>
+                                        QTY - Full Plate <br>
+                                        Rs. 200
+                                    </p>
+                                </div>
+                            </td>
+                            <td class='col-auto'>
+                                <a href='forbidden.html' class='btn icon btn-primary'>Order</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='col-auto'>
+                                <div class='d-flex align-items-center'>
+                                    <img src='assets/images/menu/momonon.jpg' height='50' width='50' />
+                                    <p class='font-bold ms-3 mb-0'>
+                                        Chicken Mo:Mo<br>
+                                        QTY - Full Plate <br>
+                                        Rs. 400
+                                    </p>
+                                </div>
+                            </td>
+                            <td class='col-auto'>
+                                <a href='forbidden.html' class='btn icon btn-primary'>Order</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='col-auto'>
+                                <div class='d-flex align-items-center'>
+                                    <img src='assets/images/menu/pizza.jpg' height='50' width='50' />
+                                    <p class='font-bold ms-3 mb-0'>
+                                        Pizza<br>
+                                        QTY - Medium <br>
+                                        Rs. 800
+                                    </p>
+                                </div>
+                            </td>
+                            <td class='col-auto'>
+                                <a href='forbidden.html' class='btn icon btn-primary'>Order</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer clearfix mb-0 text-muted">
+            <div class="centerFooter">
+                <p>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> &copy; Haitomns Groups
+                </p>
+            </div>
+            <div class="centerFooter">
+                <p>
+                    Programmed with
+                    <span class="text-danger"><i class="bi bi-heart"></i></span> by
+                    <a href="https://haitomns.com">Haitomns Groups</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

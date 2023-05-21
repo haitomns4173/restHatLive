@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestHat Cart Page</title>
+    <link rel="stylesheet" href="assets/css/main/app.css" />
+    <link rel="stylesheet" href="assets/css/main/app-dark.css" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png" />
+    <style>
+        .centerFooter {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <a href="index.html"><button class="btn btn-success"><i class="bi-house-door"></i> Home</button></a>
+        <div class="mx-auto d-block">
+            <a class="navbar-brand ms-4" href="cart.html">
+                <img src="assets/images/logo/logo.svg" />
+            </a>
+        </div>
+        <a href="menuPage.html"><button class="btn btn-success"><i class="bi bi-menu-button-wide"></i> Menu</button></a>
+    </nav>
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-header">
+                <h4 class="card-title">Cart Items</h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td class='col-auto'>
+                                1
+                            </td>
+                            <td class='col-auto'>
+                                <div class='d-flex align-items-center'>
+                                    <p class='font-bold ms-3 mb-0'>
+                                        Chicken Mo:Mo<br>
+                                        Rate : Rs. 400<br>
+                                        Quantity : 2<br>
+                                        Total : Rs. 800
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class='btn-group mb-3' role='group' aria-label='Basic example'>
+                                    <a href='forbidden.html'> <button type='button'
+                                            class='btn btn-secondary'>-</button></a>
+                                    <a href='forbidden.html'> <button type='button'
+                                            class='btn btn-secondary'>+</button></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='col-auto'>
+                                2
+                            </td>
+                            <td class='col-auto'>
+                                <div class='d-flex align-items-center'>
+                                    <p class='font-bold ms-3 mb-0'>
+                                        Pizza<br>
+                                        Rate : Rs. 800<br>
+                                        Quantity : 1<br>
+                                        Total : Rs. 800
+                                    </p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class='btn-group mb-3' role='group' aria-label='Basic example'>
+                                    <a href='forbidden.html'> <button type='button'
+                                            class='btn btn-secondary'>-</button></a>
+                                    <a href='forbidden.html'> <button type='button'
+                                            class='btn btn-secondary'>+</button></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='col-auto' colspan='3'>
+                                <div class='centerFooter'>
+                                    Total Items : 3<br>
+                                    Total Cost : Rs. 1600
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-body">
+                <form action="forbidden.html" method="post" class="form form-horizontal">
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>Full Name</label>
+                            </div>
+                            <div class="col-md-8 form-group">
+                                <input type="text" id="first-name" class="form-control" name="fullName"
+                                    placeholder="Full Name" />
+                            </div>
+                            <div class="col-md-4">
+                                <label>Mobile Number</label>
+                            </div>
+                            <div class="col-md-8 form-group">
+                                <input type="number" id="contact-info" min="9000000000" class="form-control"
+                                    name="mobileNumber" placeholder="Mobile Number" />
+                            </div>
+                            <div class="col-sm-12 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-success me-1 mb-1">
+                                    Confirm Order
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer clearfix mb-0 text-muted">
+            <div class="centerFooter">
+                <p>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> &copy; Haitomns Groups
+                </p>
+            </div>
+            <div class="centerFooter">
+                <p>
+                    Programmed with
+                    <span class="text-danger"><i class="bi bi-heart"></i></span> by
+                    <a href="https://haitomns.com">Haitomns Groups</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
